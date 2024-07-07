@@ -4,8 +4,12 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: Roboto, sans-serif;
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -33,7 +37,6 @@ img {
   width: 1110px;
   padding-left: 0px;
   padding-right: 0px;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
   outline: 1px solid red;
@@ -45,7 +48,7 @@ img {
 }
 
 header {
-  background-color: #012D63;
+  background-color: #012d63;
   padding-top: 16px;
   padding-bottom: 17px;
 }
@@ -58,10 +61,10 @@ header {
 .header-logo {
   width: 100px;
   height: 70px;
-  margin-right: 73px;
+  margin-right: 152px;
 }
 
-.header-nav{
+.header-nav {
   margin-right: auto;
 }
 
@@ -72,7 +75,7 @@ header {
 
 .header-link {
   text-decoration: none;
-  color: #C7C7C7;
+  color: #c7c7c7;
   font-size: 24px;
   font-weight: 300;
   line-height: 1.16;
@@ -85,8 +88,72 @@ header {
 }
 
 .language-switch {
-  color: #DCDCDC;
+  color: #dcdcdc;
   font-size: 24px;
   font-weight: 300;
   line-height: 1.16;
+}
+
+.hero {
+  background-image: url(../img/snkrbg.webp);
+  background-size: cover;
+  padding: 94px 0px 183px;
+}
+
+.hero-logo {
+  width: 160px;
+  height: 120px;
+  flex-shrink: 0;
+  margin-left: 6px;
+  margin-bottom: -35px;
+}
+
+.logo-text {
+  color: #fff;
+  font-family: "PT Serif", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.33;
+  width: fit-content;
+  margin-left: 31px;
+  margin-bottom: -20px;
+}
+
+.hero-title {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 144px;
+  font-weight: 400;
+  line-height: 1.33;
+  width: fit-content;
+  margin-left: -7px;
+  margin-bottom: -36px;
+}
+
+.hero-undertitle {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 1.33;
+  margin-bottom: 12px;
+}
+
+.hero-text {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.16;
+  margin-bottom: 41px;
+}
+
+.hero-button {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.16;
+  padding: 20px 61px 19px 61px;
+  border-radius: 10px;
+  background: #8E32C6;
+  border: 0px;
 }
