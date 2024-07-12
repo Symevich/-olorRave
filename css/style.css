@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -40,6 +41,12 @@ img {
   margin-left: auto;
   margin-right: auto;
   /* outline: 1px solid red; */
+}
+
+.sections-line {
+  height: 2px;
+  background-color: #fff;
+  margin: 0;
 }
 
 #active {
@@ -140,21 +147,22 @@ header {
 }
 
 .hero-text {
-  color: #FFF;
+  color: #fff;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.16;
   margin-bottom: 41px;
+  width: 508px;
 }
 
 .hero-button {
-  color: #FFF;
+  color: #fff;
   font-size: 24px;
   font-weight: 400;
   line-height: 1.16;
   padding: 20px 61px 19px 61px;
   border-radius: 10px;
-  background: #8E32C6;
+  background: #8e32c6;
   border: 0px;
 }
 
@@ -167,17 +175,18 @@ header {
 }
 
 .pluses-title {
-  color: #FFF;
-  text-align: center;
+  color: #fff;
   font-family: "Playfair Display";
   font-size: 36px;
   font-weight: 400;
   line-height: 1.33;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pluses-list {
   display: flex;
-  border: 5px solid #8E32C6;
+  border: 5px solid #8e32c6;
   justify-content: space-between;
   padding-right: 50px;
   padding-left: 50px;
@@ -186,16 +195,128 @@ header {
 .pluses-item {
   margin-top: 25px;
   margin-bottom: 35px;
+  text-align: center;
 }
 
 .pluses-title:nth-child(1) {
   margin-bottom: 4px;
+  width: 159px;
 }
 
 .pluses-title:nth-child(2) {
   margin-top: 10px;
+  width: 161px;
 }
 
 .pluses-title:nth-child(3) {
   margin-bottom: 6px;
+  width: 159px;
+}
+
+.reviews {
+  background-image: url(../img/flowersbg.webp), url(../img/bg2.webp);
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, cover;
+  background-position: bottom left;
+  padding-top: 25px;
+  padding-bottom: 114px;
+}
+
+.rev-title {
+  color: #fff;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.33;
+  margin-bottom: 8px;
+  margin-bottom: 24px;
+}
+
+.rev-list {
+  display: flex;
+  justify-content: center;
+}
+
+.rev-item {
+  border-radius: 15px;
+}
+
+.rev-item:nth-child(1) {
+  padding: 49px 14px 29px 13px;
+  background: linear-gradient(
+    137deg,
+    #00e5e6 7.29%,
+    #00a8f7 26.04%,
+    #9a76f9 62.5%,
+    #cc5ec2 100%
+  );
+  box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
+  margin-right: 93px;
+}
+
+.rev-item:nth-child(2) {
+  padding: 49px 9px 29px 18px;
+  background: linear-gradient(
+    137deg,
+    #ff68b4 0%,
+    #ff45e1 26.04%,
+    #ce3aff 62.84%,
+    #8961ff 100%
+  );
+  box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
+  margin-right: 93px;
+}
+
+.rev-item:nth-child(3) {
+  padding: 49px 9px 29px 18px;
+  background: linear-gradient(
+    143deg,
+    #ffe128 0%,
+    #ff9b5c 30.21%,
+    #ff8381 63.29%,
+    #ff5489 100%
+  );
+  box-shadow: 0px 14px 0px -5px #b95a4c, 0px 30px 0px -13px #732f26;
+}
+
+.rev-text {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.16;
+  width: 228px;
+  margin-bottom: 8px;
+}
+
+.comment-date {
+  color: #d8d8d8;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.14;
+  margin-bottom: 47px;
+}
+
+.rev-img {
+  display: flex;
+}
+
+.rev-photo {
+  margin-right: 5px;
+}
+
+.rev-name {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.14;
+  margin-bottom: 1px;
+}
+
+.reg-year {
+  color: #d8d8d8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
 }
