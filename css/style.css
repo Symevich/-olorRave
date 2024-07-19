@@ -369,6 +369,69 @@ header {
   line-height: 1.16;
   border: 0px;
   border-radius: 16px;
-  background: #8E32C6;
+  background: #8e32c6;
   padding: 20px 49px 20px 48px;
 }
+
+.footer {
+  display: flex;
+  background: #021635;
+}
+
+.sections-line-2 {
+  background: #9b9b9b;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-item {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.16;
+}
+
+.footer-mail { 
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.16;
+  text-decoration-line: underline;
+}
+
+.rights {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.16;
+  margin-bottom: 7px;
+}
+
+.footer-country {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.16;
+}
+
+.footer-logo {
+  width: 108px;
+  height: 81px;
+  flex-shrink: 0;
+  margin-bottom: -15px;
+}
+
+.footer-logo-text {
+  color: #FFF;
+  width: fit-content;
+  font-family: "PT Serif";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.33;
+
+}
+
+
