@@ -111,7 +111,6 @@ header {
   width: 160px;
   height: 120px;
   flex-shrink: 0;
-  margin-left: 6px;
   margin-bottom: -35px;
 }
 
@@ -122,7 +121,7 @@ header {
   font-weight: 400;
   line-height: 1.33;
   width: fit-content;
-  margin-left: 31px;
+  margin-left: 25git add px;
   margin-bottom: -20px;
 }
 
@@ -235,7 +234,7 @@ header {
 
 .rev-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .rev-item {
@@ -252,7 +251,6 @@ header {
     #cc5ec2 100%
   );
   box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
-  margin-right: 93px;
 }
 
 .rev-item:nth-child(2) {
@@ -265,7 +263,6 @@ header {
     #8961ff 100%
   );
   box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
-  margin-right: 93px;
 }
 
 .rev-item:nth-child(3) {
