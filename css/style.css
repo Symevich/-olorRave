@@ -40,7 +40,6 @@ img {
   padding-right: 0px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 1px solid red; */
 }
 
 .sections-line {
@@ -49,7 +48,7 @@ img {
   margin: 0;
 }
 
-#active {
+.selected {
   font-weight: 400;
   color: #fff;
 }
@@ -86,6 +85,11 @@ header {
   font-size: 24px;
   font-weight: 300;
   line-height: 1.16;
+}
+
+.header-link:nth-child(1) {
+  font-weight: 400;
+  color: #fff;
 }
 
 .header-link:hover {
@@ -399,8 +403,8 @@ header {
   line-height: 1.16;
 }
 
-.footer-mail { 
-  color: #FFF;
+.footer-mail {
+  color: #fff;
   font-size: 24px;
   font-weight: 400;
   line-height: 1.16;
@@ -421,7 +425,7 @@ header {
 }
 
 .rights-text {
-  color: #FFF;
+  color: #fff;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.16;
@@ -429,7 +433,7 @@ header {
 }
 
 .rights-country {
-  color: #FFF;
+  color: #fff;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.16;
@@ -450,12 +454,10 @@ header {
 }
 
 .footer-logo-text {
-  color: #FFF;
+  color: #fff;
   width: fit-content;
   font-family: "PT Serif";
   font-size: 24px;
   font-weight: 400;
   line-height: 1.33;
 }
-
-
