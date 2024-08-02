@@ -87,11 +87,6 @@ header {
   line-height: 1.16;
 }
 
-.header-link:nth-child(1) {
-  font-weight: 400;
-  color: #fff;
-}
-
 .header-link:hover {
   font-weight: 400;
   color: #fff;
